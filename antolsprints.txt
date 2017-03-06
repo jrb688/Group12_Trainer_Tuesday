@@ -1,0 +1,34 @@
+Bryan Antol Sprints, power building;
+warmup, 6:30;
+loop, 2;
+pyramid;
+30/30;
+endloop;
+pyramid;
+cooldown, 7:45;
+
+
+
+set, pyramid;
+thing, on, no, 5, 15;
+thing, off, no, 2, 15;
+thing, on, no, 5, 30;
+thing, off, no, 2, 15;
+thing, on, no, 5, 45;
+thing, off, no, 2, 15;
+thing, on, no, 5, 60;
+thing, off, no, 2, 15;
+thing, on, no, 5, 45;
+thing, off, no, 2, 15;
+thing, on, no, 5, 30;
+thing, off, no, 2, 15;
+thing, on, no, 5, 15;
+thing, off, no, 2, 15;
+endset;
+
+set, 30/30;
+loop, 6;
+thing, on, no, 5, 30;
+thing, off, no, 2, 30;
+endloop;
+endset;
