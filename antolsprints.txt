@@ -1,6 +1,8 @@
-Bryan Antol Sprints, power building;
+//sample workout file. This is the example we work work off of for the workout reader and the workout creator
+
+Bryan Antol Sprints, power building;//title, description
 warmup, 6:30;
-loop, 2;
+loop, 2;//a loop repeats the segment(s) of the workout a certain number of times
 pyramid;
 30/30;
 endloop;
@@ -8,7 +10,7 @@ pyramid;
 cooldown, 7:45;
 
 
-
+//a set is a group of workout segments with a name so it can be called multiple times during the workout without needing to be written more than once
 set, pyramid;
 thing, on, no, 5, 15;
 thing, off, no, 2, 15;
